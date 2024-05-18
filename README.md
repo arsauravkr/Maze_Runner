@@ -1,10 +1,10 @@
-# Rabbit and Carrot Maze Solver
+# Maze Runner
 
 A fun and engaging maze-solving game implemented in Python. Help the rabbit find its way to the carrot through a randomly generated maze.
 
 ## Problem Statement
 
-Create a Python-based maze-solving game where a rabbit must find its way to a carrot. The game uses a user-defined grid size where `0` represents a path and `1` represents a blocked cell. The maze is randomly generated each time the game is run with a fixed probability of 0.3 for blocked cells. The rabbit starts at the top-left corner (`R`) and aims to reach the bottom-right corner (`C`) where the carrot is located. The program should find a path if it exists and print the solution step-by-step. The game allows the user to replay multiple times.
+Create a Python-based maze-solving game where a rabbit must find its way to a carrot. The game uses a user-defined grid size where `0` represents a path and `X` represents a blocked cell. The maze is randomly generated each time the game is run with a fixed probability of 0.3 for blocked cells. The rabbit starts at the top-left corner (`R`) and aims to reach the bottom-right corner (`C`) where the carrot is located. The program should find a path if it exists and print the solution step-by-step. The game allows the user to replay multiple times.
 
 ## Logic
 
@@ -34,13 +34,13 @@ Create a Python-based maze-solving game where a rabbit must find its way to a ca
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/rabbit-and-carrot-maze-solver.git
-    cd rabbit-and-carrot-maze-solver
+    git clone https://github.com/arsauravkr/Maze_Runner.git
+    cd Maze_Runner
     ```
 
 2. Run the game:
     ```bash
-    python rabbit_maze_solver.py
+    python maze_runner.py
     ```
 
 ## How to Play
